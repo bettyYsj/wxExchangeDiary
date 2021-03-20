@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/diary/diary",
+    "pages/user/user",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/square/square"
+  ],
+  "tabBar": {
+    "custom": true,
+    "color": "#a598a6",
+    "selectedColor": "#bc6781",
+    "backgroundColor": "#ffedf2",
+    "list": [
+      {
+        "pagePath": "pages/diary/diary",
+        "text": "组件"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "接口"
+      },
+      {
+        "pagePath": "pages/square/square",
+        "text": "接口"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff7f9",
+    "navigationBarTitleText": "交换日记",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

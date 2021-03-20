@@ -1,0 +1,33 @@
+/* pages/diary/diary.wxss */
+.container {
+    padding: 0;
+}
+.diaris-list {
+    width: 100%;
+}
+.diary {
+    position: relative;
+    height: 150rpx;
+    color: #bc6781;
+}
+.diary-image {
+    position: absolute;
+    opacity: 0.15;
+    height: 150rpx;
+    width: 100%;
+}
+.diary-title-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20rpx 20rpx 10rpx 20rpx;
+}
+.diary-title {
+    font-size: 40rpx;
+}
+.diary-time, .diary-content {
+    font-size: 30rpx;
+}
+.diary-content {
+    padding: 0 20rpx;
+}

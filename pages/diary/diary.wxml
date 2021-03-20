@@ -1,0 +1,15 @@
+<!--pages/diary/diary.wxml-->
+<view class="container">
+    <image wx:if="{{!diaris.length}}" mode="aspectFit" class="new-diary" src="/assets/newDiary.png" />
+    <view wx:else class="diaris-list">
+        <view class="diary"  wx:for="{{diaris}}" wx:key="{{index}}"  wx:for-item="diary">
+            <image class="diary-image" src="{{diary.image}}" mode="aspectFill" lazy-load="false">
+            </image>  
+            <view class="diary-title-time">
+                <view class="diary-title">{{diary.title}}</view>
+                <view class="diary-time">{{diary.time}}</view>
+            </view>
+            <view class="diary-content">{{diary.content}}</view>
+        </view>
+    </view>
+</view>
